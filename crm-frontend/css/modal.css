@@ -1,0 +1,15 @@
+.modal-actiive {
+    animation: fade .3s ease-in-out .3s forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
